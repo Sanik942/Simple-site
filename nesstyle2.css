@@ -1,0 +1,68 @@
+h1 
+{
+	text-align: center;
+	font-family: Verdana, sans-serif;
+}
+.contacts
+{
+	
+	position: absolute;
+	text-align: center;
+	width:400px;
+	height: 160px;
+	padding:5px;
+	background: #fc0; 	
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 150px;
+	margin: auto;
+	overflow: auto;
+
+}
+.description
+{
+	text-align: justify;
+	margin-left: 100px;
+	margin-right: 100px;
+	line-height: 1.3em;
+	font-family: Arial, sans-serif;
+}
+.sites
+{   list-style:none;
+	text-align: center;
+}
+.sites li 
+{
+	display:inline-block;
+}
+.sites a 
+{
+	letter-spacing: 2px;
+}
+a {
+	margin-left:5px;	
+	text-decoration: none;
+	color:black;
+	font-family: Helvetica, sans-serif;
+		
+}
+a#backhome
+{   
+    text-align: center;	
+}
+a:hover 
+{
+	color:#4682B4;
+}
+.podval {
+	
+    text-align: center;
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 6px; /* Поля вокруг текста */
+    background: #4682B4; /* Цвет фона */
+    color: white; /* Цвет текста */
+    width: 100%;
+	font-family: Verdana, sans-serif;
+}

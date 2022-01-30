@@ -1,0 +1,181 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(63, 63, 63);
+    background-color:rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+}
+p 
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+img {width: 100%; max-width: 100%;}
+.wrapper {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    border: 1px solid rgb(63,63,63);
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-btn {
+    display: block;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    font-size: 1.25em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(63, 63, 63);
+    transition-duration: 0.4s;
+}
+.nav-btn:first-child:hover {
+    background-color: #ef1526;
+    color: rgb(248, 248, 248);
+    border-color: #ef1526;
+}
+.nav-btn:hover {
+    background-color: rgb(63, 63, 63);
+    color: rgb(248, 248, 248);
+    box-shadow: 2px 2px 5px rgb(151, 151, 151);
+}
+
+.main-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(63,63,63);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px 35px;
+    font-size: 1.125em;
+    text-align: justify;
+}
+.main-block p {
+    max-width: 900px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+}
+.main-block h2 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1.4px;
+    line-height: 35px;
+}
+.mail {
+    display: flex;
+    justify-content: space-between;
+}
+.mail-link {
+    display: block;
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    margin-left: 10px;
+}
+.mail-link:hover {
+    text-decoration: underline;
+}
+#logo {
+    width: 450px;
+    height: 450px;
+}
+#moto-logo {
+    width: 350px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+#acura-logo {
+    width: 350px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+.history-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(63,63,63);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px 35px;
+    font-size: 1.125em;
+    text-align: left;
+}
+.history-block p {
+    max-width: 1000px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+}
+.history-block img {
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#acura-1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.body-search {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.body-search a {
+    display: block;
+    padding: 18px;
+    border: 1px solid rgb(63,63,63);
+    border-radius:10px;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: rgb(63,63,63);
+}
+.body-search a:hover {
+    background-color: rgb(63, 63, 63);
+    color: rgb(248, 248, 248);
+    box-shadow: 2px 2px 5px rgb(151, 151, 151);
+
+}
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: content-box;
+    border: 1px solid rgb(63,63,63);
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.foot-btn {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: rgb(63, 63, 63);
+    max-width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+.foot-btn:hover {
+    background-color:rgb(63, 63, 63);
+    color: rgb(248, 248, 248);
+    box-shadow: 2px 2px 5px rgb(151, 151, 151);
+    cursor: pointer;
+}

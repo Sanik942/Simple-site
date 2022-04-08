@@ -262,13 +262,13 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     background-size: cover;
 }
 .face {
-    background-image: url(/321/images/Facebook.svg);
+    background-image: url(/Simple-site/images/Facebook.svg);
 }
 .tweet {
-    background-image: url(/321/images/Twitter@2x.png);
+    background-image: url(/Simple-site/images/Twitter@2x.png);
 }
 .insta {
-    background-image: url(/321/images/insta.png);
+    background-image: url(/Simple-site/images/insta.png);
 }
 .media-buttons {
     display: flex;

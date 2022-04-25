@@ -583,6 +583,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     }
     .main-block p {
         max-width: 300px;
+        font-size: 1.2rem;
     }
     .main-block h1 {
         text-align: center;

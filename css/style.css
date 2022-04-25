@@ -573,6 +573,10 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     .dropdown:hover .mob_menu {
         display: block;
     }
+     .main-block {
+        padding: 0.625em 1.18em;
+        font-size: 1.2rem;
+    }
     .main-block p {
         max-width: 300px;
     }

@@ -577,6 +577,10 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         padding: 0.625em 1.18em;
         font-size: 1.2rem;
     }
+    .history-block {
+     padding: 0.625em 1.18em;
+        font-size: 1.2rem;
+    }
     .main-block p {
         max-width: 300px;
     }

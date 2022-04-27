@@ -322,7 +322,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     background-image: url(/Simple-site/images/vk_icon.png);
 }
 .tele {
-     background-image: url(/images/telegram_icon.png);
+     background-image: url(/Simple-site/images/telegram_icon.png);
 }
 .media-buttons {
     display: flex;

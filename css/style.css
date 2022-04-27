@@ -590,9 +590,12 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         text-align: center;
     }
     .art-grid {
-        grid-template-columns: repeat(1, minmax(300px,1fr));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .art-block {
+        margin-bottom: 15px;
         max-width: 300px;
         margin-left: 0;
         margin-right: 0;

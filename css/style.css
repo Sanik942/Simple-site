@@ -588,6 +588,32 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     .main-block h1 {
         text-align: center;
     }
+    .art-grid {
+        grid-template-columns: repeat(1, minmax(300px,1fr));
+    }
+    .art-block {
+        max-width: 330px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .img-box {
+        max-width:330px;
+    }
+    .media-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .media-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .media-items ul {
+        padding-left: 0;
+    }
+    .main-block-content {
+        max-width: 330px;
+    }
     .foot-btn {
         padding: 0.7em;
     }

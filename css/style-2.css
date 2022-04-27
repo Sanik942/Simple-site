@@ -356,5 +356,6 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     .second-block h1 {
         text-align: center;
     }
-    
+    .foot-btn {
+        padding:0.5em;
 }

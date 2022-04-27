@@ -346,16 +346,31 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     .dropdown:hover .mob_menu {
         display: block;
     }
-     .second-block {
+    .second-block {
         padding: 0.625em 1.18em;
-        font-size: 1.2rem;
     }
     .second-block p {
         max-width: 300px;
+        font-size: 1.2rem;
     }
     .second-block h1 {
         text-align: center;
     }
     .foot-btn {
-        padding:0.5em;
+        padding: 0.7em;
+    }
+    .themes {
+        justify-content: space-around;
+    }
+    .themes a {
+        margin-right: 0;
+        padding: 1.4em;
+    }
+    .select-body {
+        justify-content: space-evenly;
+    }
+    .select-body a {
+        margin-right: 0;
+    }
 }
+

@@ -243,9 +243,10 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 }
 .art-block a {
     text-decoration: none;
-    color: rgb(63, 63, 63);
+    
 }
 .art-block h2 {
+    color: rgb(63, 63, 63);
     font-size: 1.5rem;
     text-align: left;
     margin-left: 10px;
@@ -595,6 +596,9 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         max-width: 300px;
         margin-left: 0;
         margin-right: 0;
+    }
+     .art-block:hover {
+        transform: none;
     }
     .img-box {
         max-width:300px;

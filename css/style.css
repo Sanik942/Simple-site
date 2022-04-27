@@ -514,7 +514,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         height: 400px;
     }
 }
-@media (max-width:500px) {
+@media (max-width:400px) {
     .top-nav {
         display: block;
         border: none;

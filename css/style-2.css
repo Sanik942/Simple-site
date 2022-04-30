@@ -359,9 +359,10 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     .second-block h1 {
         text-align: center;
     }
-    .foot-btn {
-        padding: 0.5em;
+    .second-block canvas {
+        display:none;
     }
+   
     .themes {
         justify-content: space-around;
     }
@@ -401,6 +402,9 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     }
     .select-body a {
         margin-right: 0;
+    }
+     .foot-btn {
+        padding: 0.5em;
     }
 }
 

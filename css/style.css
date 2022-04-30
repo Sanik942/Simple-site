@@ -515,6 +515,15 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     }
 }
 @media (max-width:400px) {
+      .main-block p {
+        max-width: 600px;
+    }
+    #logo {
+        width:400px;
+        height: 400px;
+    }
+}
+@media (max-width:400px) {
     .top-nav {
         display: block;
         border: none;
@@ -573,20 +582,21 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     .dropdown:hover .mob_menu {
         display: block;
     }
-     .main-block {
+    .history-block  {
         padding: 0.625em 1.18em;
         font-size: 1.2rem;
     }
-    .history-block {
-     padding: 0.625em 1.18em;
-        font-size: 1.2rem;
+    .main-block {
+        padding: 0.625em 1.18em;
     }
+ 
     .main-block p {
         max-width: 300px;
         font-size: 1.2rem;
     }
     .main-block h1 {
         text-align: center;
+        font-size: 1.6em;
     }
     .art-grid {
         display: flex;
@@ -599,7 +609,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         margin-left: 0;
         margin-right: 0;
     }
-     .art-block:hover {
+    .art-block:hover {
         transform: none;
     }
     .img-box {
@@ -608,6 +618,9 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     .media-buttons {
         flex-wrap: wrap;
         justify-content: center;
+       
+    }
+    .media-buttons a {
         margin-top: 10px;
     }
     .media-items {
@@ -617,18 +630,28 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     .media-items ul {
         padding-left: 0;
     }
+    .grid-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-img-item {
+        max-width: 330px;
+    }
     .main-block-content {
         max-width: 300px;
     }
-      .under-block {
+    .under-block {
         max-width: 300px;
         align-items: flex-start;
     }
     .share {
         text-align: center;
     }
+    .date {
+        font-size: 1.3rem;
+    }
     .foot-btn {
-        padding: 0.7em;
+        padding: 0.7rem;
     }
     #logo {
         width:250px;

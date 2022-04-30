@@ -1,3 +1,13 @@
+var isMobile = {
+  Android:        function() { return navigator.userAgent.match(/Android/i) ? true : false; },
+  BlackBerry:     function() { return navigator.userAgent.match(/BlackBerry/i) ? true : false; },
+  iOS:            function() { return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false; },
+  Windows:        function() { return navigator.userAgent.match(/IEMobile/i) ? true : false; },
+  any:            function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());  }
+};
+
+if ( !isMobile.any() ) {
+  // Код не для телефонов
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var ballRadius = 10;
@@ -139,7 +149,7 @@ function draw() {
     else {
       lives--;
       if(!lives) {
-        alert("Вы проиграли");
+        alert("Игра окончена");
         document.location.reload();
       }
       else {
@@ -165,3 +175,4 @@ function draw() {
 }
 
 draw();
+}

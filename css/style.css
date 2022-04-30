@@ -635,7 +635,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         flex-direction: column;
     }
     .grid-img-item {
-        max-width: 330px;
+        max-width: 300px;
     }
     .main-block-content {
         max-width: 300px;

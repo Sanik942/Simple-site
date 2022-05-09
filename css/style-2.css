@@ -364,10 +364,11 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     }
    
     .themes {
-        justify-content: space-around;
+        justify-content: center;
     }
     .themes a {
-        margin-right: 0;
+        margin-right: 10px;
+         margin-left: 10px;
         padding: 1.4em;
     }
      .select-generation {
@@ -388,20 +389,20 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
         margin-right: 0.5em;
         margin-left: 0.5rem;
         margin-top: 0.5rem;
-        border: 2px solid rgb(63,63,63);
+        border: 1px solid rgb(63,63,63);
         border-radius:10px;
         text-decoration: none;
         font-size: 1.25rem;
         font-weight: 700;
         color: rgb(63,63,63);
-        
         font-family: Arial, Helvetica, sans-serif;
     }
     .select-body {
-        justify-content: space-evenly;
+        justify-content: center;
     }
     .select-body a {
-        margin-right: 0;
+         margin-right: 5px;
+        margin-left: 5px;
     }
      .foot-btn {
         padding: 0.5em;

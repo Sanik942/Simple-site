@@ -29,15 +29,15 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     box-sizing: content-box;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
-    padding: 1em 1em;
-    margin-top: 1em;
+    padding: 1rem;
+    margin-top: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-btn {
     display: block;
     text-decoration: none;
-    padding: 1em;
+    padding: 1rem;
     border: 1px solid rgb(63, 63, 63);
     border-radius: 10px;
     font-size: 1.25rem;
@@ -75,7 +75,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     flex-direction: column;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
-    margin-top: 2em;
+    margin-top: 2rem;
     padding: 0.625em 2.18em;
     font-size: 1.125rem;
     text-align: left;
@@ -216,10 +216,10 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
 .art-block {
-    margin-top: 15px;
+    margin-top: 1rem;
     margin-right: 5px;
     margin-left: 5px;
-    max-width: 550px;
+    max-width: 370px;
     max-height: 500px;
     transition: 0.3s;
 }
@@ -480,16 +480,16 @@ text-align:center;
     box-sizing: content-box;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
-    padding: 1em 1em;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 
 .foot-btn {
     display: block;
     text-decoration: none;
-    padding: 1em;
+    padding: 1rem;
     border: 1px solid rgb(63, 63, 63);
     border-radius: 10px;
     font-size: 1.25rem;

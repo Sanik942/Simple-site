@@ -216,7 +216,8 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
 .art-block {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-right: 5px;
     margin-left: 5px;
     max-width: 370px;

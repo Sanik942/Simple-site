@@ -366,10 +366,14 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
    
     .themes {
         justify-content: center;
+        margin-top:1.8em;
+        margin-bottom: 1.56em;
     }
     .themes a {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         margin-right: 10px;
-         margin-left: 10px;
+        margin-left: 10px;
         padding: 1.4em;
     }
      .select-generation {

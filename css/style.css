@@ -373,6 +373,7 @@ text-align:center;
 .media-items a:hover {
     border: 4px solid rgb(121, 121, 121);
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
+    transform: scale(1.03);
 }
 .media-items a:active {
     background-color: rgb(121, 121, 121);

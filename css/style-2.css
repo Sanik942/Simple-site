@@ -75,6 +75,9 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     transform: scale(0.9);
 }
 .second-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
@@ -86,6 +89,11 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+.line {
+    width: 200px;
+    height: 2px;
+    background-color: rgb(63, 63, 63);
 }
 .select-body {
     display: flex;
@@ -164,7 +172,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     align-items: center;
     flex-wrap: wrap;
     box-sizing: content-box;
-    margin-bottom: 2.56em;
+    margin-bottom: 1em;
     margin-top: 2.8em;
     
 }

@@ -17,6 +17,18 @@ p
     margin-top: 1em;
     margin-bottom: 1em;
 }
+p::selection, h1::selection, h2::selection, h3::selection, li::selection {
+    background-color: rgb(59, 59, 59);
+    color: rgb(248, 248, 248);
+}
+a {
+    color: #2f00ff;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+a:hover {
+    color: #ef1526;
+}
 img {width: 100%; max-width: 100%; border-radius: 10px;}
 .wrapper {
     margin: 0 auto;

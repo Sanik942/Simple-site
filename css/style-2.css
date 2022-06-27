@@ -25,6 +25,8 @@ a {
 a:hover {
     color: #ef1526;
 }
+canvas { background: #eee; display: block; margin: 0 auto; }
+
 img {width: 100%; max-width: 100%; border-radius: 15px;}
 .wrapper {
     margin: 0 auto;
@@ -37,8 +39,8 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     box-sizing: content-box;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
-    padding: 1rem;
-    margin-top: 1rem;
+    padding: 1em 1em;
+    margin-top: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
 .nav-btn {
@@ -83,14 +85,15 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     text-align: center;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
-    margin-top: 2rem;
+    margin-top: 2em;
     padding: 0.625em 2.18em;
     font-size: 1.125rem;
 }
 .second-block h1 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
 }
 .line {
     width: 200px;
@@ -109,9 +112,9 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 .acura-switch {
     display: block;
     border: 1px solid rgb(63,63,63);
-    border-radius: 10px;
     color: rgb(63, 63, 63);
-    padding: 1rem;
+    border-radius: 10px;
+    padding: 1em;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 1.23rem;
@@ -138,8 +141,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 }
  .select-generation a {
     display: block;
-    padding: 1em;
-    
+    padding: 1rem;
     margin-right: 1em;
     border: 1px solid rgb(63,63,63);
     border-radius:10px;
@@ -177,7 +179,6 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     box-sizing: content-box;
     margin-bottom: 1em;
     margin-top: 2.8em;
-    
 }
 .theme {
     padding-right: 1em;
@@ -192,16 +193,17 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 .themes a {
     display: block;
     padding: 2.5rem;
-    border: 1px solid rgb(63,63,63);
+    border: 1px solid rgb(63,63,63); 
     border-radius:10px;
     text-decoration: none;
     font-size: 1.56rem;
     font-weight: 700;
     color: rgb(63,63,63);
     margin-top: 35px;
-    margin-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 40px;
+    margin-bottom: 40px;
+    
 }
 @keyframes text {
     from {color: rgb(63, 63, 63);
@@ -212,7 +214,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     }
 .themes a:hover {
     animation: text ease-in 0.3s;
-    background-color: rgb(63, 63, 63);
+    background-color:rgb(63, 63, 63);
     color: rgb(248, 248, 248);
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
@@ -228,18 +230,23 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     line-height: 1.6rem;
     letter-spacing: 1.2px;
 }
+.enc-block h1 {
+    align-self: center;
+}
 .enc-block h2 {
+    align-self: center;
     margin-top: 35px;
     margin-bottom: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem
 }
 .enc-block h3 {
+    align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
 } 
 .enc-block ol, .enc-block ul {
-    align-self:center;
+    align-self:flex-start;
     max-width: 1000px;
     line-height: 28px;
     letter-spacing: 1.2px;
@@ -253,7 +260,21 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     margin-bottom: 30px;
     margin-top: 20px;
 }
-
+.small {
+    float: left;
+}
+#arrowTop {
+    height: 10px;
+    width: 20px;
+    color: rgb(59, 59, 59);
+    padding: 0.5rem;
+    text-align: center;
+    position: fixed;
+    font-size: 2rem;
+    bottom: 200px;
+    right: 30px;
+    cursor: pointer;
+  }
 .gototop
 {   width: 30px;
     height: 30px;
@@ -278,9 +299,9 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     box-sizing: content-box;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
-    padding: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    padding: 1em 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
     transition: 0.2s;
 }
 .foot-btn {
@@ -310,7 +331,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
         max-width: 600px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:500px) {
     .top-nav {
         display: block;
         border: none;
@@ -378,11 +399,11 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     }
     .second-block h1 {
         text-align: center;
+        font-size: 1.8rem;
     }
-    .second-block canvas {
-        display:none;
+    .sb_h1 {
+        color: #ef1526;
     }
-   
     .themes {
         justify-content: center;
         margin-top:1.8em;
@@ -393,9 +414,10 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
         margin-bottom: 1rem;
         margin-right: 10px;
         margin-left: 10px;
-        padding: 1.4em;
+        padding: 1.8rem;
     }
-     .select-generation {
+ 
+    .select-generation {
         display: none;
     }
     .select-generation-mini {
@@ -419,17 +441,20 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
         font-size: 1.25rem;
         font-weight: 700;
         color: rgb(63,63,63);
+        margin-top: 0.625em;
         font-family: Arial, Helvetica, sans-serif;
     }
     .select-body {
         justify-content: center;
     }
     .select-body a {
-         margin-right: 5px;
+        margin-right: 5px;
         margin-left: 5px;
     }
-     .foot-btn {
-        padding: 0.5em;
+    .second-block canvas {
+        display: none;
+    }
+    .foot-btn {
+        padding: 0.7rem;
     }
 }
-

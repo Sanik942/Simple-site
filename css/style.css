@@ -11,13 +11,12 @@ body {
     flex-direction: column;
     min-height: 100%;
 }
-
 p 
 {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-p::selection, h1::selection, h2::selection, h3::selection, li::selection {
+p::selection, h1::selection, h2::selection, h3::selection, li::selection{
     background-color: rgb(59, 59, 59);
     color: rgb(248, 248, 248);
 }
@@ -26,6 +25,7 @@ a {
     text-decoration: none;
     transition-duration: 0.3s;
 }
+
 a:hover {
     color: #ef1526;
 }
@@ -41,7 +41,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     box-sizing: content-box;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 1rem;
     margin-top: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -80,7 +80,24 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 .nav-btn:active {
     transform: scale(0.9);
 }
-
+.lang {
+    display: block;
+    text-decoration: none;
+    padding: 0.8em;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(63, 63, 63);
+    align-self:flex-start;
+    margin-top: 1rem;
+}
+.lang:hover {
+    background-color: rgb(63, 63, 63);
+    color: rgb(248, 248, 248);
+    box-shadow: 2px 2px 5px rgb(151, 151, 151);
+}
 .main-block {
     display: flex;
     align-items: center;
@@ -99,7 +116,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 }
 .main-block h2 {
     text-align: center;
-    font-size: 1.56rem;
+    font-size: 1.6rem;
     letter-spacing: 1.4px;
     line-height: 1.6rem;
 }
@@ -119,7 +136,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     display: block;
     border: 1px solid rgb(63,63,63);
     border-radius: 10px;
-    margin-top: 2em;
+    margin-top: 2rem;
     padding: 0.625em 2.18em;
     font-size: 1.125rem;
     text-align: left;
@@ -127,6 +144,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 .articles h1 {
     text-align: center;
 }
+
 .subscribe-btn {
   position: absolute;
   left: 80%;
@@ -239,6 +257,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 .img-box {
     position: relative;
     overflow: hidden;
+    margin-right: 0;
     height: 250px;
     width: 370px;
 }
@@ -259,7 +278,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 }
 .art-block h2 {
     color: rgb(63, 63, 63);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: left;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -272,7 +291,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 }
 .under-block {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     width: 900px;
     margin-top: 20px;
@@ -281,14 +300,14 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 .date {
     color: rgb(63, 63, 63);
     font-size: 1.5rem;
-    
+    align-self: flex-start;
     font-family: Arial, Helvetica, sans-serif;
 }
 .share {
-text-align:center;
+    text-align: center;
 }
 .share-word {
-    margin-left: 15px;
+    margin-left: 1rem;
     font-size: 1.5rem;
     color: rgb(63, 63, 63);
     font-family: Arial, Helvetica, sans-serif;
@@ -338,7 +357,7 @@ text-align:center;
     background-image: url(/Simple-site/images/vk_icon.png);
 }
 .tele {
-     background-image: url(/Simple-site/images/telegram_icon.png);
+    background-image: url(/Simple-site/images/telegram_icon.png);
 }
 .media-buttons {
     display: flex;
@@ -370,6 +389,7 @@ text-align:center;
     list-style-type: none;
     margin-bottom: 10px;
 }
+
 .media-items a {
     display: block;
     text-decoration: none;
@@ -446,6 +466,7 @@ text-align:center;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 .back-btn {
     padding: 0.5rem;
     margin-top: 20px;
@@ -525,15 +546,6 @@ text-align:center;
 }
 @media (max-width:800px) {
     .main-block p {
-        max-width: 600px;
-    }
-    #logo {
-        width:400px;
-        height: 400px;
-    }
-}
-@media (max-width:400px) {
-      .main-block p {
         max-width: 600px;
     }
     #logo {

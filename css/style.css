@@ -128,9 +128,18 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     max-width: 900px;
 }
 .img {
-    max-width: 900px;
+    position: relative;
+    width: 900px;
+    height: 500px;
     margin-bottom: 30px;
     margin-top: 20px;
+}
+.img img {
+    position: absolute;
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
 }
 .articles {
     display: block;

@@ -256,9 +256,18 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     margin-left: 8px;
 }
 .img {
-    max-width: 1000px;
+    position: relative;
+    width: 1000px;
+    height: 520px;
     margin-bottom: 30px;
     margin-top: 20px;
+}
+.img img {
+    position: absolute;
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
 }
 .small {
     float: left;

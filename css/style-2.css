@@ -399,6 +399,10 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     .dropdown:hover .mob_menu {
         display: block;
     }
+     .img {
+        width: 310px;
+        height: 300px;
+    }
     .second-block {
         padding: 0.625em 1.18em;
     }

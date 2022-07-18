@@ -250,25 +250,18 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     max-width: 1000px;
     line-height: 28px;
     letter-spacing: 1.2px;
+    padding-left: 0.625em;
 }
 .enc-block ol>li {
     margin-top: 15px;
     margin-left: 8px;
 }
 .img {
-    position: relative;
-    width: 1000px;
-    height: 520px;
+    max-width: 1000px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
-.img img {
-    position: absolute;
-    transition: 1s;
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
-}
+
 .small {
     float: left;
 }
@@ -400,8 +393,8 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
         display: block;
     }
      .img {
-        width: 310px;
-        height: 300px;
+        max-width: 310px;
+        
     }
     .second-block {
         padding: 0.625em 1.18em;

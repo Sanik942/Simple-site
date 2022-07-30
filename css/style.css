@@ -390,6 +390,18 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     display: flex;
     margin-bottom: 5.9rem;
 }
+.media-items_2 a {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    border: 4px dashed rgb(121, 121, 121);
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(63, 63, 63);
+    transition: 0.2s;
+}
 .media-items li {
     list-style-type: none;
     margin-bottom: 10px;

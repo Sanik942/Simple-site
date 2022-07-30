@@ -135,6 +135,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     flex-wrap: wrap;
     align-items: center;
     height: 100%;
+    max-width:1000px;
 }
 .select-generation-mini {
     display: none;

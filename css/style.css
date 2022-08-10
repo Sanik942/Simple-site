@@ -561,6 +561,27 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 .foot-btn:active {
     transform: scale(0.9);
 }
+@media (max-width:1250px) {
+    .art-grid {
+        grid-template-columns: repeat(2, minmax(300px,1fr));
+    }
+}
+@media (max-width:900px) {
+    .art-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .art-block {
+        max-width: 470px;
+        max-height: 500px;
+    }
+    .img-box {
+        height: 250px;
+        width: 470px;
+    }
+    
+}
 @media (max-width:800px) {
     .main-block p {
         max-width: 600px;
@@ -570,7 +591,67 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         height: 400px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:695px) {
+    .top-nav {
+        display: block;
+        border: none;
+        padding: 0;
+    }
+    .nav-btn {
+        display: none;
+        transition-duration: 0;
+    }
+    .nav-btn:active {
+        transform: none;
+    }
+    .mob_menu_btn {
+        display: block;
+        padding: 0.6em;
+        border: 1px solid rgb(63, 63, 63);
+        border-radius: 10px;
+        font-size: 1.45rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: rgb(63, 63, 63);
+        background-color: rgb(248, 248, 248);
+        font-family: inherit;
+        margin: 0;
+        transition-duration: 0.3s;
+    }
+    .mob_menu_btn:active {
+        background-color:rgb(63, 63, 63);
+        color: rgb(248, 248, 248);
+        box-shadow: 2px 2px 5px rgb(151, 151, 151);
+    }
+    .dropdown {
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+    .mob_menu {
+        display: none;
+        position: absolute;
+        background-color: rgb(248, 248, 248);
+        border-radius: 10px;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .mob_menu a {
+        float: none;
+        color: rgb(59, 59, 59);
+        border: none;
+        padding: 1em 1em;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    .dropdown:hover .mob_menu {
+        display: block;
+    }
+}
+@media (max-width:414px) {
     .top-nav {
         display: block;
         border: none;
@@ -665,6 +746,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         transform: none;
     }
     .img-box {
+        width:370px;
         max-width:300px;
     }
     .media-buttons {

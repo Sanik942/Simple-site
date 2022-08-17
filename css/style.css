@@ -525,6 +525,26 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 .grid-img-item a:hover {
     opacity: 1;
 }
+.arrowTop {
+    height: 35px;
+    width: 35px;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 10px;
+    position: fixed;
+    text-align: center;
+    bottom: 50px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+.arrowTop::before {
+    content: '\21E7';
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 59);
+    text-transform: none;
+    font-size: 2rem;
+  }
 .bottom-nav {
     display: flex;
     align-items: center;

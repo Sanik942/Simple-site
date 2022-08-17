@@ -2,10 +2,13 @@ html {
     scroll-behavior: smooth;
     font-size: 15px;
 }
+:root {
+    --bg:rgb(248, 248, 248);
+}
 body {
     font-family: 'Open Sans', sans-serif;
     color: rgb(59, 59, 59);
-    background-color:rgb(248, 248, 248) ;
+    background-color: var(--bg);
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +18,7 @@ p {
 }
 p::selection, h1::selection, h2::selection, h3::selection, li::selection {
     background-color: rgb(59, 59, 59);
-    color: rgb(248, 248, 248);
+    color: var(--bg);
 }
 a {
     color: #2f00ff;
@@ -25,7 +28,7 @@ a {
 a:hover {
     color: #ef1526;
 }
-canvas { background: #eee; display: block; margin: 0 auto; }
+canvas { background: #eee; display: block; margin: 0 auto; border-radius: 10px; }
 
 img {width: 100%; max-width: 100%; border-radius: 15px;}
 .wrapper {
@@ -71,7 +74,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 }
 .nav-btn:hover {
     background-color: rgb(63, 63, 63);
-    color: rgb(248, 248, 248);
+    color: var(--bg);
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
 .nav-btn:active 
@@ -124,7 +127,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 }
 .acura-switch:hover {
     background-color: rgb(63, 63, 63);
-    color: rgb(248, 248, 248);
+    color: var(--bg);
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
 } 
 .select-generation {
@@ -135,7 +138,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     flex-wrap: wrap;
     align-items: center;
     height: 100%;
-    max-width:1000px;
+    max-width: 1000px;
 }
 .select-generation-mini {
     display: none;
@@ -168,7 +171,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 }
 .select-body a:hover, .select-generation a:hover {
     background-color: rgb(63,63,63);
-    color: rgb(248, 248, 248);
+    color: var(--bg);
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
     cursor: pointer;
 }
@@ -210,13 +213,13 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     from {color: rgb(63, 63, 63);
     }
     50% {}
-    to {color: rgb(248, 248, 248);
+    to {color: var(--bg);
         }
     }
 .themes a:hover {
     animation: text ease-in 0.3s;
     background-color:rgb(63, 63, 63);
-    color: rgb(248, 248, 248);
+    color: var(--bg);
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
 .enc-block {
@@ -266,6 +269,33 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 .small {
     float: left;
 }
+#arrowTop {
+    height: 10px;
+    width: 20px;
+    color: rgb(59, 59, 59);
+    padding: 0.5rem;
+    text-align: center;
+    position: fixed;
+    font-size: 2rem;
+    bottom: 200px;
+    right: 30px;
+    cursor: pointer;
+  }
+.gototop
+{   width: 30px;
+    height: 30px;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    display: none;
+    z-index: 22;
+    cursor: pointer;
+}
+.gototop:hover {
+    opacity: 1;
+}
 .arrowTop {
     height: 35px;
     width: 35px;
@@ -274,7 +304,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     position: fixed;
     text-align: center;
     bottom: 50px;
-    right: 40px;
+    right: 30px;
     cursor: pointer;
     z-index: 100;
   }
@@ -286,7 +316,6 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     text-transform: none;
     font-size: 2rem;
   }
-
 .bottom-nav {
     display: flex;
     align-items: center;
@@ -315,7 +344,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 }
 .foot-btn:hover {
     background-color:rgb(63, 63, 63);
-    color: rgb(248, 248, 248);
+    color: var(--bg);
     box-shadow: 2px 2px 5px rgb(151, 151, 151);
     cursor: pointer;
 }
@@ -388,19 +417,18 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     }
 }
 @media (max-width:500px) {
-        .arrowTop {
+    .arrowTop {
         display: none;
     }
-   
-     .img {
+
+    .img {
         max-width: 310px;
-        
     }
     .second-block {
-        padding: 0.625em 1.18em;
+        padding: 0.6em 1.2em;
     }
     .second-block p {
-        max-width: 300px;
+        max-width: 310px;
         font-size: 1.2rem;
     }
     .second-block h1 {

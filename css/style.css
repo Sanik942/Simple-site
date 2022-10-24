@@ -525,7 +525,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
 .grid-img-item a:hover {
     opacity: 1;
 }
-.arrowTop {
+#arrowTop {
     height: 35px;
     width: 35px;
     border: 1px solid rgb(59, 59, 59);
@@ -538,7 +538,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     z-index: 100;
   }
 
-.arrowTop::before {
+#arrowTop::before {
     content: '\21E7';
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(59, 59, 59);

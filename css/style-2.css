@@ -271,33 +271,6 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     float: left;
 }
 #arrowTop {
-    height: 10px;
-    width: 20px;
-    color: rgb(59, 59, 59);
-    padding: 0.5rem;
-    text-align: center;
-    position: fixed;
-    font-size: 2rem;
-    bottom: 200px;
-    right: 30px;
-    cursor: pointer;
-  }
-.gototop
-{   width: 30px;
-    height: 30px;
-    border: 1px solid rgb(63, 63, 63);
-    border-radius: 10px;
-    position: fixed;
-    bottom: 30px;
-    right: 35px;
-    display: none;
-    z-index: 22;
-    cursor: pointer;
-}
-.gototop:hover {
-    opacity: 1;
-}
-.arrowTop {
     height: 35px;
     width: 35px;
     border: 1px solid rgb(59, 59, 59);
@@ -310,7 +283,7 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
     z-index: 100;
   }
 
-.arrowTop::before {
+#arrowTop::before {
     content: '\21E7';
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(59, 59, 59);

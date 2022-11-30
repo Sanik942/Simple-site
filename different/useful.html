@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style-2.css">
+    <link rel="stylesheet" href="/styles/nomalize.css">
+    <link rel="shortcut icon" href="/images/favicon3.png" type="image/x-icon">
+    <title>Разное</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav class="top-nav">
+                <a href="/index.html" class="nav-btn">Хонда</a>
+                <a href="/articles.html"class="nav-btn">Статьи</a>
+                <a href="/enc/enc.html"class="nav-btn">Энциклопедия</a>
+                <a href="/media/media.html" class="nav-btn">Медиа</a>
+                <a href="/contacts.html"class="nav-btn">Контакты</a>
+                <div class="dropdown">
+                    <button type="button" class="mob_menu_btn">Меню</button>
+                    <div class="mob_menu">
+                        <a href="/index.html" class="nav-btn" >Хонда</a>
+                        <a href="/articles.html"class="nav-btn">Статьи</a>
+                        <a href="/enc/enc.html"class="nav-btn">Энциклопедия</a>
+                        <a href="/media/media.html" class="nav-btn">Медиа</a>
+                        <a href="/contacts.html"class="nav-btn">Контакты</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="wrapper">
+            <div class="second-block">
+                <h1 class="sb_h1">Полезное</h1> 
+                <div class="converter-block">
+                    <h1>Калькулятор расхода топлива</h1>
+                    
+                    <input type="number" class="input_1" placeholder="Израсходовано литров">
+                    <input type="number" class="input_2" placeholder="Пройденное расстояние">
+                    <input type="number" class="input_3" placeholder="Цена топлива">
+                    <p class="output_1"></p>
+                    <p class="output_2"></p>
+                    <div class="buttons"> 
+                        <button onclick="calculation()" class="btn_reverse">Рассчитать</button>
+                        <button onclick="clean()" class="btn">Очистка</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <nav class="bottom-nav">
+                <a href="/articles.html" class="foot-btn">Статьи</a>
+                <a href="/different/different.html" class="foot-btn">Разное</a>
+                <a href="/different/useful.html" class="foot-btn">Полезное</a>
+                <a href="#" class="foot-btn">Наверх</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="/scripts/consumption.js"></script>
+</body>
+</html>

@@ -270,6 +270,93 @@ img {width: 100%; max-width: 100%; border-radius: 15px;}
 .small {
     float: left;
 }
+.converter-block {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.converter-block h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: rgb(59, 59, 59);
+}
+.input_1 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: rgb(59,59,59);
+    border: 1px solid rgb(59,59,59);
+    border-radius: 4px;
+    padding: 3px;
+    width: 80%;
+}
+
+.input_2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(59,59,59);
+    font-size: 1.2rem;
+    border: 1px solid rgb(59,59,59);
+    border-radius: 4px;
+    padding: 3px;
+    width: 80%;
+}
+.input_3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(59,59,59);
+    font-size: 1.2rem;
+    border: 1px solid rgb(59,59,59);
+    border-radius: 4px;
+    padding: 3px;
+    width: 80%;
+}
+.output_1, .output_2 {
+    width: 80%;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 6px 6px;
+    background-color: rgb(59, 59, 59);
+    color: var(--bg);
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--bg);
+    color: rgb(59, 59, 59);
+}
+.btn_reverse {
+    padding-top: 5px;
+    background-color: rgb(59, 59, 59);
+    padding: 6px 6px;
+    color: var(--bg);
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn_reverse:hover {
+    background-color: var(--bg);
+    color: rgb(63, 63, 63);
+}
+
 #arrowTop {
     height: 35px;
     width: 35px;

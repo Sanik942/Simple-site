@@ -127,6 +127,9 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
     flex-direction: column;
     max-width: 900px;
 }
+.main-block-content h1 {
+    text-align: left;
+}
 .img {
     max-width: 900px;
     margin-bottom: 30px;
@@ -687,7 +690,7 @@ img {width: 100%; max-width: 100%; border-radius: 10px;}
         max-width: 300px;
         font-size: 1.2rem;
     }
-    .main-block h1 {
+       .main-block-content h1 {
         text-align: center;
         font-size: 1.6em;
     }
